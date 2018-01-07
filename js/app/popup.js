@@ -57,7 +57,7 @@ myApp.controller("PopupCtrl", ['$scope', '$http', function($scope, $http){
       $scope.negativeWidth = {'width': percentage + "%"};
       $scope.negativePercentage = percentage;
     }else {
-      // Neutral, update Nothing
+      // Neutral
       $scope.positiveWidth = {'width': "5px"};
       $scope.negativeWidth = {'width': "5px"};
       $scope.neutralStyle = {'font-weight':"bold"};
